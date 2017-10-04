@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+
 
 @interface AppDelegate ()
 
@@ -14,6 +16,7 @@
 
 @implementation AppDelegate
 
+NSString * APP_SHARE_GROUP = @"group.trippo";
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
@@ -48,4 +51,47 @@
 }
 
 
+- (BOOL)application:(UIApplication *)app openURL:(nonnull NSURL *)url options:(nonnull NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
+
+    NSString *STATIC_FILE_HANDLE = @"file:/";
+    //If app is opened from share extension, do the following
+    /*
+     1.) Get path of shared file from NSUserDefaults
+     2.) Get data from file and store in some variable
+     3.) Create a new accesible unique file path
+     4.) Dump data created into this file.
+     */
+    
+    NSUserDefaults *defaults=[[NSUserDefaults alloc] initWithSuiteName:APP_SHARE_GROUP];
+    NSString *path=url.path;
+
+    NSLog(@"hiiiit");
+    
+    NSData *data;
+    //Get file path from url shared
+    NSString * newFilePathConverted = [STATIC_FILE_HANDLE stringByAppendingString:path];
+    url = [ NSURL URLWithString: newFilePathConverted ];
+    data = [NSData dataWithContentsOfURL:url];
+    //Create a regular access path because this app cant preview a shared app group path
+    NSString *regularAccessPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
+    NSString *uuid = [[NSUUID UUID] UUIDString];
+    //Copy file to a jpg image(ignore extension, will convert from png)
+    NSString *uniqueFilePath= [ NSString stringWithFormat: @"/image%@.jpg", uuid];
+    regularAccessPath = [regularAccessPath stringByAppendingString:uniqueFilePath];
+    NSString * newFilePathConverted1 = [STATIC_FILE_HANDLE stringByAppendingString:regularAccessPath];
+    url = [ NSURL URLWithString: newFilePathConverted1 ];
+    //Dump existing shared file path data into newly created file.
+    [data writeToURL:url atomically:YES];
+    //Reset NSUserDefaults to Nil once file is copied.
+    [defaults setObject:nil forKey:@"url"];
+
+    
+    ViewController *viewController = [[ViewController alloc] init];
+    [viewController configureWithImage:data];
+    UINavigationController *navController = (UINavigationController *)self.window.rootViewController;
+    [navController presentViewController:viewController animated:YES completion:nil];
+    //Do what you want
+    
+    return YES;
+}
 @end

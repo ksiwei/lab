@@ -9,10 +9,15 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *ScreenshotView;
 
 @end
 
 @implementation ViewController
+
+- (void)configureWithImage: (NSData *)imageData {
+    self.ScreenshotView.image = [UIImage imageWithData:imageData];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

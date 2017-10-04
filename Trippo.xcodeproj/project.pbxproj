@@ -15,6 +15,9 @@
 		B36CB5011F857296004271F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B36CB4FF1F857296004271F8 /* LaunchScreen.storyboard */; };
 		B36CB50C1F857296004271F8 /* TrippoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B36CB50B1F857296004271F8 /* TrippoTests.m */; };
 		B36CB5171F857296004271F8 /* TrippoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B36CB5161F857296004271F8 /* TrippoUITests.m */; };
+		B36CB52C1F8572A7004271F8 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36CB52B1F8572A7004271F8 /* ShareViewController.m */; };
+		B36CB52F1F8572A7004271F8 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B36CB52D1F8572A7004271F8 /* MainInterface.storyboard */; };
+		B36CB5331F8572A7004271F8 /* TrippoShare.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B36CB5281F8572A7004271F8 /* TrippoShare.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +35,28 @@
 			remoteGlobalIDString = B36CB4ED1F857296004271F8;
 			remoteInfo = Trippo;
 		};
+		B36CB5311F8572A7004271F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B36CB4E61F857296004271F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B36CB5271F8572A7004271F8;
+			remoteInfo = TrippoShare;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B36CB5371F8572A7004271F8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B36CB5331F8572A7004271F8 /* TrippoShare.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B36CB4EE1F857296004271F8 /* Trippo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trippo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +75,12 @@
 		B36CB5121F857296004271F8 /* TrippoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrippoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B36CB5161F857296004271F8 /* TrippoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrippoUITests.m; sourceTree = "<group>"; };
 		B36CB5181F857296004271F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B36CB5281F8572A7004271F8 /* TrippoShare.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TrippoShare.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36CB52A1F8572A7004271F8 /* ShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		B36CB52B1F8572A7004271F8 /* ShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		B36CB52E1F8572A7004271F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		B36CB5301F8572A7004271F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B36CB5381F8574D2004271F8 /* TrippoShare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TrippoShare.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +105,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B36CB5251F8572A7004271F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -84,6 +121,7 @@
 				B36CB4F01F857296004271F8 /* Trippo */,
 				B36CB50A1F857296004271F8 /* TrippoTests */,
 				B36CB5151F857296004271F8 /* TrippoUITests */,
+				B36CB5291F8572A7004271F8 /* TrippoShare */,
 				B36CB4EF1F857296004271F8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +132,7 @@
 				B36CB4EE1F857296004271F8 /* Trippo.app */,
 				B36CB5071F857296004271F8 /* TrippoTests.xctest */,
 				B36CB5121F857296004271F8 /* TrippoUITests.xctest */,
+				B36CB5281F8572A7004271F8 /* TrippoShare.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,6 +179,18 @@
 			path = TrippoUITests;
 			sourceTree = "<group>";
 		};
+		B36CB5291F8572A7004271F8 /* TrippoShare */ = {
+			isa = PBXGroup;
+			children = (
+				B36CB5381F8574D2004271F8 /* TrippoShare.entitlements */,
+				B36CB52A1F8572A7004271F8 /* ShareViewController.h */,
+				B36CB52B1F8572A7004271F8 /* ShareViewController.m */,
+				B36CB52D1F8572A7004271F8 /* MainInterface.storyboard */,
+				B36CB5301F8572A7004271F8 /* Info.plist */,
+			);
+			path = TrippoShare;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,10 +201,12 @@
 				B36CB4EA1F857296004271F8 /* Sources */,
 				B36CB4EB1F857296004271F8 /* Frameworks */,
 				B36CB4EC1F857296004271F8 /* Resources */,
+				B36CB5371F8572A7004271F8 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B36CB5321F8572A7004271F8 /* PBXTargetDependency */,
 			);
 			name = Trippo;
 			productName = Trippo;
@@ -196,6 +249,23 @@
 			productReference = B36CB5121F857296004271F8 /* TrippoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		B36CB5271F8572A7004271F8 /* TrippoShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B36CB5341F8572A7004271F8 /* Build configuration list for PBXNativeTarget "TrippoShare" */;
+			buildPhases = (
+				B36CB5241F8572A7004271F8 /* Sources */,
+				B36CB5251F8572A7004271F8 /* Frameworks */,
+				B36CB5261F8572A7004271F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrippoShare;
+			productName = TrippoShare;
+			productReference = B36CB5281F8572A7004271F8 /* TrippoShare.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -219,6 +289,15 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = B36CB4ED1F857296004271F8;
 					};
+					B36CB5271F8572A7004271F8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
 				};
 			};
 			buildConfigurationList = B36CB4E91F857296004271F8 /* Build configuration list for PBXProject "Trippo" */;
@@ -237,6 +316,7 @@
 				B36CB4ED1F857296004271F8 /* Trippo */,
 				B36CB5061F857296004271F8 /* TrippoTests */,
 				B36CB5111F857296004271F8 /* TrippoUITests */,
+				B36CB5271F8572A7004271F8 /* TrippoShare */,
 			);
 		};
 /* End PBXProject section */
@@ -263,6 +343,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36CB5261F8572A7004271F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36CB52F1F8572A7004271F8 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +383,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B36CB5241F8572A7004271F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36CB52C1F8572A7004271F8 /* ShareViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -307,6 +403,11 @@
 			isa = PBXTargetDependency;
 			target = B36CB4ED1F857296004271F8 /* Trippo */;
 			targetProxy = B36CB5131F857296004271F8 /* PBXContainerItemProxy */;
+		};
+		B36CB5321F8572A7004271F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B36CB5271F8572A7004271F8 /* TrippoShare */;
+			targetProxy = B36CB5311F8572A7004271F8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -325,6 +426,14 @@
 				B36CB5001F857296004271F8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B36CB52D1F8572A7004271F8 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B36CB52E1F8572A7004271F8 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -488,6 +597,32 @@
 			};
 			name = Release;
 		};
+		B36CB5351F8572A7004271F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TrippoShare/TrippoShare.entitlements;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TrippoShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = siweikang.Trippo.TrippoShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B36CB5361F8572A7004271F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TrippoShare/TrippoShare.entitlements;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TrippoShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = siweikang.Trippo.TrippoShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -521,6 +656,14 @@
 			buildConfigurations = (
 				B36CB5221F857296004271F8 /* Debug */,
 				B36CB5231F857296004271F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B36CB5341F8572A7004271F8 /* Build configuration list for PBXNativeTarget "TrippoShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36CB5351F8572A7004271F8 /* Debug */,
+				B36CB5361F8572A7004271F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
