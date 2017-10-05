@@ -18,7 +18,7 @@
 
 NSUInteger m_inputItemCount = 0; // Keeps track of the number of attachments we have opened asynchronously.
 NSString * m_invokeArgs = NULL;  // A string to be passed to your AIR app with information about the attachments.
-NSString * APP_SHARE_GROUP = @"group.trippo";
+NSString * APP_SHARE_GROUP = @"group.com.trippo";
 const NSString * APP_SHARE_URL_SCHEME = @"trippo";
 CGFloat m_oldAlpha = 1.0; // Keeps the original transparency of the Post dialog for when we want to hide it.
 
@@ -65,7 +65,7 @@ CGFloat m_oldAlpha = 1.0; // Keeps the original transparency of the Post dialog 
     
     NSString * filePath = [ documentsPath stringByAppendingPathComponent: fileName ];
     [ jpegData writeToFile: filePath atomically: YES ];
-    
+    NSLog(@"Share: file path %@", filePath);
     //Mahantesh -- Store image url to NSUserDefaults
     
     NSUserDefaults *defaults=[[NSUserDefaults alloc] initWithSuiteName:APP_SHARE_GROUP];

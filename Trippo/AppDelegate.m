@@ -53,7 +53,7 @@ NSString * APP_SHARE_GROUP = @"group.trippo";
 
 - (BOOL)application:(UIApplication *)app openURL:(nonnull NSURL *)url options:(nonnull NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
 
-    NSString *STATIC_FILE_HANDLE = @"file:/";
+    NSString *STATIC_FILE_HANDLE = @"file://";
     //If app is opened from share extension, do the following
     /*
      1.) Get path of shared file from NSUserDefaults
@@ -62,7 +62,6 @@ NSString * APP_SHARE_GROUP = @"group.trippo";
      4.) Dump data created into this file.
      */
     
-    NSUserDefaults *defaults=[[NSUserDefaults alloc] initWithSuiteName:APP_SHARE_GROUP];
     NSString *path=url.path;
 
     NSLog(@"hiiiit");
@@ -71,8 +70,12 @@ NSString * APP_SHARE_GROUP = @"group.trippo";
     //Get file path from url shared
     NSString * newFilePathConverted = [STATIC_FILE_HANDLE stringByAppendingString:path];
     url = [ NSURL URLWithString: newFilePathConverted ];
+
     data = [NSData dataWithContentsOfURL:url];
     //Create a regular access path because this app cant preview a shared app group path
+    /*
+     NSUserDefaults *defaults=[[NSUserDefaults alloc] initWithSuiteName:APP_SHARE_GROUP];
+
     NSString *regularAccessPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
     NSString *uuid = [[NSUUID UUID] UUIDString];
     //Copy file to a jpg image(ignore extension, will convert from png)
@@ -84,12 +87,17 @@ NSString * APP_SHARE_GROUP = @"group.trippo";
     [data writeToURL:url atomically:YES];
     //Reset NSUserDefaults to Nil once file is copied.
     [defaults setObject:nil forKey:@"url"];
-
-    
-    ViewController *viewController = [[ViewController alloc] init];
+    */
+    /*
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    ViewController *viewController=[storyboard instantiateViewControllerWithIdentifier:@"VIEW_CTLR"];
     [viewController configureWithImage:data];
-    UINavigationController *navController = (UINavigationController *)self.window.rootViewController;
-    [navController presentViewController:viewController animated:YES completion:nil];
+
+    [self.window.rootViewController.navigationController pushViewController:viewController animated:YES];
+    */
+    
+    ViewController *root = (ViewController *)self.window.rootViewController;
+    [root configureWithImage:data];
     //Do what you want
     
     return YES;

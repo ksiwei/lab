@@ -9,19 +9,18 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-@property (weak, nonatomic) IBOutlet UIImageView *ScreenshotView;
-
+@property (weak, nonatomic) IBOutlet UIImageView *screenshotView;
+@property (strong, atomic) UIImage *screenshot;
 @end
 
 @implementation ViewController
 
-- (void)configureWithImage: (NSData *)imageData {
-    self.ScreenshotView.image = [UIImage imageWithData:imageData];
-}
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+- (void)configureWithImage: (NSData *)imageData {
+    self.screenshot = [[UIImage alloc] initWithData:imageData];
+    if (self.screenshotView != nil) {
+        self.screenshotView.image = self.screenshot;
+    }
 }
 
 
