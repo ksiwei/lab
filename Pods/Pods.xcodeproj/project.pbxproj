@@ -1,0 +1,1159 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02309CD2D979ACB8801D32A39A5C28C7 /* alltypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 960D8EAC404CA656F5582E403FB72425 /* alltypes.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		079073BB1F40D4A3153E9842ECE4AF49 /* sudoku.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3FA048B863588B2040385670378C45 /* sudoku.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		08EF2176516AC7CAD707FA63399E1631 /* png.h in Headers */ = {isa = PBXBuildFile; fileRef = CDCD2F727178FD7E593F875840E0AF38 /* png.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		0BE1E4F3E15EDABF5DC147AEC557E886 /* gplot.h in Headers */ = {isa = PBXBuildFile; fileRef = 1285CA812B05346135D49D72D13EDF3A /* gplot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		0D7EA5D874D0C3826439CE3828FEA9E4 /* Pods-TrippoShare-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DD7523DBA9A0B362BBE242EFC5EDF5 /* Pods-TrippoShare-dummy.m */; };
+		0E040AC334AEFAD292DDA4F821806F38 /* genericvector.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F8787E77E74B63E6C396C9BF9412F0D /* genericvector.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		0E045A7A8601917A8F9BBF51AF8E1E97 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		0E924AC9FE49B8C68CB7AAC519DB8B61 /* resultiterator.h in Headers */ = {isa = PBXBuildFile; fileRef = B65B52990B4A223844FA0217F714E7B9 /* resultiterator.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		0ED76A666201D1C2D648F8C868AC4553 /* baseapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 962664C76A7F5C353ED2999FB2769C5A /* baseapi.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		12102886CF8BF60D04316E847015D316 /* recog.h in Headers */ = {isa = PBXBuildFile; fileRef = 7764B0BFDC1871DCF1CCA82D76EB7699 /* recog.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		15436758BAFB2E79D431A181147F3F2E /* watershed.h in Headers */ = {isa = PBXBuildFile; fileRef = 355B18B722FD90F96AF0D22100D20DBB /* watershed.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		161B6A1BFF8B25C10E818AEF0C7727B1 /* G8RecognizedBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BCEA9C820D3FF5F01A714938640E66 /* G8RecognizedBlock.m */; };
+		1A828F6CE679000196E7D121E79715B1 /* bmf.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B65FC86811627068F985D6097BDA9D /* bmf.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1AC21862DBF2B73ABE9CAE33BED49610 /* memry.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB1F644E224274DE5CF85F2925FB1BB /* memry.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1BEF20E553C632073F1DCD514A6CBD17 /* apitypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CA434BB1F6EAAF3965966A7865FF100 /* apitypes.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		20343AE663F99E39EB6925DA42CE7DC2 /* G8Tesseract.mm in Sources */ = {isa = PBXBuildFile; fileRef = 15D08322381FAC2E09B993AC49582667 /* G8Tesseract.mm */; };
+		22C72E5A8ECBB8C0AD5B09F7AC68E6C9 /* G8Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = A7BEB98AC5B8AFC75EB13C84F86708B2 /* G8Constants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D933ACF59FCDF0EF208C8346324125B /* bbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A3BC25BD8CFCDCAA3F56E80D7D637A0 /* bbuffer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2EC0E01C9F8D177195D5A5C4B1C59899 /* heap.h in Headers */ = {isa = PBXBuildFile; fileRef = 927C12F0EAE2A7C7C4864CCADBBC3A18 /* heap.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2F8A1468FE8993529BC151FF8F70568C /* G8RecognitionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C1771D63AD49559D7FA291560C5379 /* G8RecognitionOperation.m */; };
+		31B67346CFBED829AF86084CC77DAABA /* ltrresultiterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 12BD9A3DBB5532E3CAF875C023B51215 /* ltrresultiterator.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3521FDABE8C28A8897566C95D6DA2875 /* list.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E39D352CBE2196846547E257CBAC5F4 /* list.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		36A0DAFA23C0ECBF856BD5FC9ECE2D98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		36AE93BEDA2797B5C417943B1E486E1B /* G8RecognitionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 180A4CE75FDCDF7A46E2D413BFC6560D /* G8RecognitionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E63EEC55FEB60731D53376844E0C4DB /* bmfdata.h in Headers */ = {isa = PBXBuildFile; fileRef = 963B7E10960D189C2A6F09E4104F0FE9 /* bmfdata.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3EB5EDF60DE0B8C1BD2749B1BC7430AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		4A2EA49E4419E0CE79633124D9A009F8 /* stack.h in Headers */ = {isa = PBXBuildFile; fileRef = A1135453726FAF35DBCE68F9790121D9 /* stack.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4F3823A7D957D8C284716A5AAC23CC43 /* arrayaccess.h in Headers */ = {isa = PBXBuildFile; fileRef = 59452C047B2290234C596C1C270F043E /* arrayaccess.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		53813CA96C590BE087B1364D1672CADB /* basedir.h in Headers */ = {isa = PBXBuildFile; fileRef = 5101AC05A23F82268DFC55A701349D4F /* basedir.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5AECE994EB8A7AF3A4BD6533C63D70AF /* fileerr.h in Headers */ = {isa = PBXBuildFile; fileRef = FA667C0273B457D9242756D9F3F741E1 /* fileerr.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5E253EC51A859FFA03A203022FE8851A /* tiffvers.h in Headers */ = {isa = PBXBuildFile; fileRef = AC2950207BEBF26A3F20E848CD99BF38 /* tiffvers.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		68E2879104175D5E2D36B83B8ABBC53F /* jbclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E2395B73A2E5A748C19F21F8BCC9000 /* jbclass.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		698EBA805A7AF992C7AE12AED9C80ABB /* unichar.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA3C562253BC77A5C6425DDF2F50290 /* unichar.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		69DDEE292E59FE360F64F8B97540715F /* publictypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FABE38064D2CE62E19A0A8C0D6CCE14 /* publictypes.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		6DBD1DD4C8C00C3EC4E43E01114B43C7 /* jerror.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FF9A4D61E2B1896D50667DB825463FA /* jerror.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		6DFF31A749D7DF3EA1D583CDFFE8147E /* thresholder.h in Headers */ = {isa = PBXBuildFile; fileRef = 69EADE9CDD4E011389D9BB1C301A970F /* thresholder.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		6FA8284D93D757B2B7EAD23DE526DBBA /* ccbord.h in Headers */ = {isa = PBXBuildFile; fileRef = 17D8C1DAD18FF9F3F22B7B0F4A9AFCD0 /* ccbord.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		6FF20F86583C4807B25AA52071713FA9 /* dewarp.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CC6FC70860C381A0AB2D4A3890B7976 /* dewarp.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		742A62F0912A9E1F09351ED3ED03E2E0 /* tiff.h in Headers */ = {isa = PBXBuildFile; fileRef = CC91EE3A1FA3E308950344017F0FDF51 /* tiff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		747300A055354F9A25F3B08D21582A2A /* tesscallback.h in Headers */ = {isa = PBXBuildFile; fileRef = CA1B9D084D9338661935088E720F3C3B /* tesscallback.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7DCEE3CA62D92C661521BAFE4B2A93EB /* tiffio.h in Headers */ = {isa = PBXBuildFile; fileRef = 9634C43204FF9CD216DC73E9E6ADF6E1 /* tiffio.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		806C808B4D5BAD670FE9D2215306BC69 /* array.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF1DB2B44E296DC77BF1E3E6FA89061 /* array.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		81ABE3F5DF865ABBE3D2505802F41815 /* morph.h in Headers */ = {isa = PBXBuildFile; fileRef = 60F6B8D6C6265C8EFE09B6C6EB9BA515 /* morph.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8359B884F5C36C481D73BCA386055FAE /* bilateral.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FA318C14118AEBA0BCFF8E28DDCF33B /* bilateral.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		83D2A87CB2C609823FCD36E52A835A3B /* strngs.h in Headers */ = {isa = PBXBuildFile; fileRef = 95BC7B94DCC248882E7FF9F8BE266DF2 /* strngs.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8479D97FD47BF812066B33F435F7051A /* unicharmap.h in Headers */ = {isa = PBXBuildFile; fileRef = 568971B5DFEB75C24983E678BA202DC3 /* unicharmap.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		85BB0C257CE9E1470C955B04173B2B5C /* unicharset.h in Headers */ = {isa = PBXBuildFile; fileRef = A555900F3FD04A2FFD32A816FE4D4970 /* unicharset.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		87D57BB5F51D02F8221D79584D19D239 /* imageio.h in Headers */ = {isa = PBXBuildFile; fileRef = 724333B12EB53308E6D1E56587C89FE8 /* imageio.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		89ADA232516437BAD1120563FF0293DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		8A0B6370B9C360FDAA4CC0BA61C512AC /* pix.h in Headers */ = {isa = PBXBuildFile; fileRef = 00063C38FBEE1EB362D51AD6146873C2 /* pix.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8AAEC63C81122B37B1F510854C7ACAA4 /* ptra.h in Headers */ = {isa = PBXBuildFile; fileRef = F73B5DEC480FAE5B5B8E2FC61DDBF4FD /* ptra.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8AFD820AA7DCA3B01C87CA555F6CA6AE /* stringcode.h in Headers */ = {isa = PBXBuildFile; fileRef = DB04F46FBDCEAAC2D34C10780765C49D /* stringcode.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8B46DA6C1F1D519DC56C470D18FF94E1 /* tiffconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B3CD2ACF32F500F2EE62ABF7458C76D /* tiffconf.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8FB5EBBBC073E137A5C9D6980A1EA839 /* Pods-TrippoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0019358EA6AE22FD643016916055948 /* Pods-TrippoTests-dummy.m */; };
+		92E347B59CF244DC4E53D1D388AAF6E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		94525120A81072C4E66B9E32C040B890 /* serialis.h in Headers */ = {isa = PBXBuildFile; fileRef = F420F496E2A304A8ED7CC4D9CE4D03AB /* serialis.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		95769931C908C1A7388E9C4DC9BA4228 /* ocrclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 0788F8461250392443169DAF76810EC6 /* ocrclass.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9851FD5B6BC144916756C8392A14DD33 /* TesseractOCRiOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0864AC9240044EAA1F92362FA852BE /* TesseractOCRiOS-dummy.m */; };
+		9B87A884FB14917F5684F78C5BF42E4F /* jconfig.h in Headers */ = {isa = PBXBuildFile; fileRef = E32BFD1C94443C750DE0E4E5962412D0 /* jconfig.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A041C1CDC5DB2A2540EC27B9626C0079 /* errcode.h in Headers */ = {isa = PBXBuildFile; fileRef = AF29ECBCE283DADCB3C258E2E0B084F0 /* errcode.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A40D1E89EFF2B06151069BC272267A80 /* UIImage+G8Filters.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B74183B226EB41C6CC87356698689F9 /* UIImage+G8Filters.m */; };
+		A7A9BDC8A7ACE86F4B4CFBF942F53193 /* Pods-Trippo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 129ECCD6677B4E992C1EA2DC204F2B60 /* Pods-Trippo-dummy.m */; };
+		A8086DEB44B7974A6A2028CE9C8C7031 /* pageiterator.h in Headers */ = {isa = PBXBuildFile; fileRef = CBA5EAC2D138874EB90AA983E42BA32F /* pageiterator.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A81839BB18474D1BC39D79112434F0B4 /* platform.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F61AFBFADD978031C0165E41B0D22A4 /* platform.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AE2DCFD02017C11C3A06FB1F689031C3 /* queue.h in Headers */ = {isa = PBXBuildFile; fileRef = E77842F574E0119DCAB74D69F3F7FFC3 /* queue.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AF39D0C52E6F22AE2247CD3297FFFA6C /* host.h in Headers */ = {isa = PBXBuildFile; fileRef = 78A4EF4AD6139905DE0021B6B4FF7E32 /* host.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B2654DB709AE933199F20FB6B04891F5 /* regutils.h in Headers */ = {isa = PBXBuildFile; fileRef = CD1C23E2EA47F5C57A0D56B41D2740E2 /* regutils.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B6A8AD42C5F0E6F62678A7FF9D30338C /* G8TesseractParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = C0067CC4F75C128C1A090FB1EB0D0C93 /* G8TesseractParameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBCA850B24A44EF9AE59D28583D087AE /* jpeglib.h in Headers */ = {isa = PBXBuildFile; fileRef = BE9DF38F0A8FEF964717A7DFC72046A8 /* jpeglib.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C72133D47B7910004024274CB998F5E5 /* renderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 098A977E101E4AF51DB0CC12925E92B6 /* renderer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		CA53803A5006DDBEECA376C92322B110 /* allheaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 27B79F0BEEC71B62291B2EE5B1AAC785 /* allheaders.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		CAE6791569DF6CB3DEF075AA6E1556A9 /* pngconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AC72D7BE18C7C4F839421E83592901F /* pngconf.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D0D719D8161F1D7FF690B99E3FEBF89E /* ndminx.h in Headers */ = {isa = PBXBuildFile; fileRef = B89EE34ADCC1DB143C28547D1409FF55 /* ndminx.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D4EAF6A2080C04253CF528AB0CF6F6CD /* G8RecognizedBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = CC9A0B083A66079BD6F9AAF02CC4995D /* G8RecognizedBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D55E337409488B6B9E04B224DF3731A6 /* endianness.h in Headers */ = {isa = PBXBuildFile; fileRef = B530FEF18E88728E461035EB4289BBCC /* endianness.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D85BAD3FC293C4371544C5E4B5D4D1BA /* Pods-TrippoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1575AB992A293E01F43B1F3565A5B8E5 /* Pods-TrippoUITests-dummy.m */; };
+		D85F358850BAC5A9F1E25DFCA54FA054 /* G8Tesseract.h in Headers */ = {isa = PBXBuildFile; fileRef = CB1BA883F88B5D40686311D2E2A205E0 /* G8Tesseract.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D98716E483E67EFB78F2A55817F3BE47 /* UIImage+G8Filters.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F0F478557AD5A20C974D9D35AB5597 /* UIImage+G8Filters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC97A6AB72C863939BE21421A248BBF9 /* params.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC0B470AA920286D8066E325C5CADA8 /* params.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DE1D16D853F0BAC85989CE083AF6995D /* TesseractOCR.h in Headers */ = {isa = PBXBuildFile; fileRef = 87732DD716F64444A449516BF96E5761 /* TesseractOCR.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1E0510023001537FCA2865015FA6705 /* osdetect.h in Headers */ = {isa = PBXBuildFile; fileRef = D2528D616F942824FEF0C3FC237E0536 /* osdetect.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E8F7C12C99F7ED860CC0D904B08187B5 /* readbarcode.h in Headers */ = {isa = PBXBuildFile; fileRef = 5596ED3344F0419027F285FD694BE44B /* readbarcode.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E9C0C8719D01E27C0F367BD50ABBAB7C /* G8TesseractParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = FE49A906FA515DFAB5EA20CC4DCCC6A9 /* G8TesseractParameters.m */; };
+		F0491864F7CC7C60596D6F481BC7183A /* environ.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E4BC7A9B7404CA5B5461699E0E8983E /* environ.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F1354E999E92A9970D4A026F2F9D67BB /* capi.h in Headers */ = {isa = PBXBuildFile; fileRef = 3123B56E062C68A0E5B7318E28AD75FA /* capi.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F251ADF23FD5D6BB38338CD6DD04B72B /* jmorecfg.h in Headers */ = {isa = PBXBuildFile; fileRef = 94AC869625D44AEAFCD472079C084C6A /* jmorecfg.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F409B33D2D7653494D626B8B247F7651 /* leptwin.h in Headers */ = {isa = PBXBuildFile; fileRef = B253ECDF9179D2790A3F8B176C510D89 /* leptwin.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F8916CE376EDFF7121C1A8BDA80B83EB /* helpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A2FA59631A8E5F7F25779BA09806480 /* helpers.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F97D377C62C92FCA2DF55B14F3C4E775 /* pnglibconf.h in Headers */ = {isa = PBXBuildFile; fileRef = AC2D2CD9EC4AA18D1CFAA327323315A3 /* pnglibconf.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FB5F88560811DC6A12D479B9AB15973B /* bmp.h in Headers */ = {isa = PBXBuildFile; fileRef = CAE2ADD4B5E00104661D117375035554 /* bmp.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FF2F71C23145C9085ECBFD072FE87D1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		FF722FC0C39ADCA561409C8AC5828E48 /* G8TesseractDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 33D6D25659045F7D12BC9C1BF4689BF9 /* G8TesseractDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9BB447648DF3EE5FEDDBCC7821905C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6A171BB4C275E6405D983FC6975F590;
+			remoteInfo = TesseractOCRiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00063C38FBEE1EB362D51AD6146873C2 /* pix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pix.h; path = TesseractOCR/include/leptonica/pix.h; sourceTree = "<group>"; };
+		0490B717555A121EBC742036C15A15BB /* Pods-TrippoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrippoUITests-resources.sh"; sourceTree = "<group>"; };
+		04CA58EF79BF506A45D4981E3ADF6A39 /* libPods-Trippo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Trippo.a"; path = "libPods-Trippo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0788F8461250392443169DAF76810EC6 /* ocrclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ocrclass.h; path = TesseractOCR/include/tesseract/ocrclass.h; sourceTree = "<group>"; };
+		098A977E101E4AF51DB0CC12925E92B6 /* renderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = renderer.h; path = TesseractOCR/include/tesseract/renderer.h; sourceTree = "<group>"; };
+		11DD7523DBA9A0B362BBE242EFC5EDF5 /* Pods-TrippoShare-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrippoShare-dummy.m"; sourceTree = "<group>"; };
+		1285CA812B05346135D49D72D13EDF3A /* gplot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gplot.h; path = TesseractOCR/include/leptonica/gplot.h; sourceTree = "<group>"; };
+		129ECCD6677B4E992C1EA2DC204F2B60 /* Pods-Trippo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Trippo-dummy.m"; sourceTree = "<group>"; };
+		12BD9A3DBB5532E3CAF875C023B51215 /* ltrresultiterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ltrresultiterator.h; path = TesseractOCR/include/tesseract/ltrresultiterator.h; sourceTree = "<group>"; };
+		15136CD01D01F39C71833DB51197D816 /* libjpeg.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libjpeg.a; path = TesseractOCR/lib/libjpeg.a; sourceTree = "<group>"; };
+		1575AB992A293E01F43B1F3565A5B8E5 /* Pods-TrippoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrippoUITests-dummy.m"; sourceTree = "<group>"; };
+		15D08322381FAC2E09B993AC49582667 /* G8Tesseract.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = G8Tesseract.mm; path = TesseractOCR/G8Tesseract.mm; sourceTree = "<group>"; };
+		17D8C1DAD18FF9F3F22B7B0F4A9AFCD0 /* ccbord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ccbord.h; path = TesseractOCR/include/leptonica/ccbord.h; sourceTree = "<group>"; };
+		180A4CE75FDCDF7A46E2D413BFC6560D /* G8RecognitionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = G8RecognitionOperation.h; path = TesseractOCR/G8RecognitionOperation.h; sourceTree = "<group>"; };
+		1C956BD2890291A0117E95A291B8C802 /* Pods-Trippo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Trippo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1D441EB13FBF07A1BC8FB00AA3E9EB20 /* Pods-TrippoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrippoTests.release.xcconfig"; sourceTree = "<group>"; };
+		1E2395B73A2E5A748C19F21F8BCC9000 /* jbclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jbclass.h; path = TesseractOCR/include/leptonica/jbclass.h; sourceTree = "<group>"; };
+		1E39D352CBE2196846547E257CBAC5F4 /* list.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = list.h; path = TesseractOCR/include/leptonica/list.h; sourceTree = "<group>"; };
+		1EA3C562253BC77A5C6425DDF2F50290 /* unichar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unichar.h; path = TesseractOCR/include/tesseract/unichar.h; sourceTree = "<group>"; };
+		1F8787E77E74B63E6C396C9BF9412F0D /* genericvector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = genericvector.h; path = TesseractOCR/include/tesseract/genericvector.h; sourceTree = "<group>"; };
+		20A2BF80D8EEF4EBB5EFEAABE843042B /* libPods-TrippoShare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TrippoShare.a"; path = "libPods-TrippoShare.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		242D900A9D45365D89B9D2E8EEE145B0 /* liblept.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblept.a; path = TesseractOCR/lib/liblept.a; sourceTree = "<group>"; };
+		24BCEA9C820D3FF5F01A714938640E66 /* G8RecognizedBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = G8RecognizedBlock.m; path = TesseractOCR/G8RecognizedBlock.m; sourceTree = "<group>"; };
+		27B79F0BEEC71B62291B2EE5B1AAC785 /* allheaders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = allheaders.h; path = TesseractOCR/include/leptonica/allheaders.h; sourceTree = "<group>"; };
+		2A704F329CB8CB162945995E57D9AF3F /* Pods-TrippoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrippoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B3CD2ACF32F500F2EE62ABF7458C76D /* tiffconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tiffconf.h; path = TesseractOCR/include/tiffconf.h; sourceTree = "<group>"; };
+		2DC0078538F1FD1406C80AD4B0A2D41D /* Pods-TrippoShare-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrippoShare-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3056EEE3C6566586F08DF201AB4CBED5 /* TesseractOCRiOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TesseractOCRiOS.xcconfig; sourceTree = "<group>"; };
+		31161371EB4BA86E23EFD50B02062304 /* TesseractOCRiOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TesseractOCRiOS-prefix.pch"; sourceTree = "<group>"; };
+		3123B56E062C68A0E5B7318E28AD75FA /* capi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = capi.h; path = TesseractOCR/include/tesseract/capi.h; sourceTree = "<group>"; };
+		33D6D25659045F7D12BC9C1BF4689BF9 /* G8TesseractDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = G8TesseractDelegate.h; path = TesseractOCR/G8TesseractDelegate.h; sourceTree = "<group>"; };
+		355B18B722FD90F96AF0D22100D20DBB /* watershed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = watershed.h; path = TesseractOCR/include/leptonica/watershed.h; sourceTree = "<group>"; };
+		394E478BA8BEE3E9476D81203EFF9EDF /* Pods-Trippo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Trippo-frameworks.sh"; sourceTree = "<group>"; };
+		3F61AFBFADD978031C0165E41B0D22A4 /* platform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = platform.h; path = TesseractOCR/include/tesseract/platform.h; sourceTree = "<group>"; };
+		40F60E84AA1B93DCE8892283519C881A /* Pods-TrippoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrippoTests-frameworks.sh"; sourceTree = "<group>"; };
+		46C1771D63AD49559D7FA291560C5379 /* G8RecognitionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = G8RecognitionOperation.m; path = TesseractOCR/G8RecognitionOperation.m; sourceTree = "<group>"; };
+		49DE267FA8EEB86D2A5D9F34530AD3DE /* Pods-TrippoShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrippoShare.release.xcconfig"; sourceTree = "<group>"; };
+		4AE55C3BBE52B5B94BFD295596D1E978 /* Pods-TrippoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrippoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5101AC05A23F82268DFC55A701349D4F /* basedir.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = basedir.h; path = TesseractOCR/include/tesseract/basedir.h; sourceTree = "<group>"; };
+		5596ED3344F0419027F285FD694BE44B /* readbarcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = readbarcode.h; path = TesseractOCR/include/leptonica/readbarcode.h; sourceTree = "<group>"; };
+		568971B5DFEB75C24983E678BA202DC3 /* unicharmap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unicharmap.h; path = TesseractOCR/include/tesseract/unicharmap.h; sourceTree = "<group>"; };
+		59452C047B2290234C596C1C270F043E /* arrayaccess.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = arrayaccess.h; path = TesseractOCR/include/leptonica/arrayaccess.h; sourceTree = "<group>"; };
+		5BB1F644E224274DE5CF85F2925FB1BB /* memry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = memry.h; path = TesseractOCR/include/tesseract/memry.h; sourceTree = "<group>"; };
+		5CA434BB1F6EAAF3965966A7865FF100 /* apitypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = apitypes.h; path = TesseractOCR/include/tesseract/apitypes.h; sourceTree = "<group>"; };
+		60F6B8D6C6265C8EFE09B6C6EB9BA515 /* morph.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = morph.h; path = TesseractOCR/include/leptonica/morph.h; sourceTree = "<group>"; };
+		69EADE9CDD4E011389D9BB1C301A970F /* thresholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = thresholder.h; path = TesseractOCR/include/tesseract/thresholder.h; sourceTree = "<group>"; };
+		6AC72D7BE18C7C4F839421E83592901F /* pngconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pngconf.h; path = TesseractOCR/include/pngconf.h; sourceTree = "<group>"; };
+		724333B12EB53308E6D1E56587C89FE8 /* imageio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = imageio.h; path = TesseractOCR/include/leptonica/imageio.h; sourceTree = "<group>"; };
+		7764B0BFDC1871DCF1CCA82D76EB7699 /* recog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = recog.h; path = TesseractOCR/include/leptonica/recog.h; sourceTree = "<group>"; };
+		78A4EF4AD6139905DE0021B6B4FF7E32 /* host.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = host.h; path = TesseractOCR/include/tesseract/host.h; sourceTree = "<group>"; };
+		78F0F478557AD5A20C974D9D35AB5597 /* UIImage+G8Filters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+G8Filters.h"; path = "TesseractOCR/UIImage+G8Filters.h"; sourceTree = "<group>"; };
+		7CC6FC70860C381A0AB2D4A3890B7976 /* dewarp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dewarp.h; path = TesseractOCR/include/leptonica/dewarp.h; sourceTree = "<group>"; };
+		7EAB617B381990EE942FC62CFB676920 /* Pods-TrippoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrippoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		7FABE38064D2CE62E19A0A8C0D6CCE14 /* publictypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = publictypes.h; path = TesseractOCR/include/tesseract/publictypes.h; sourceTree = "<group>"; };
+		81A467AA523EB622907CE9606AB9876D /* Pods-TrippoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrippoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		87732DD716F64444A449516BF96E5761 /* TesseractOCR.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TesseractOCR.h; path = TesseractOCR/TesseractOCR.h; sourceTree = "<group>"; };
+		8B74183B226EB41C6CC87356698689F9 /* UIImage+G8Filters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+G8Filters.m"; path = "TesseractOCR/UIImage+G8Filters.m"; sourceTree = "<group>"; };
+		8BF1DB2B44E296DC77BF1E3E6FA89061 /* array.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = array.h; path = TesseractOCR/include/leptonica/array.h; sourceTree = "<group>"; };
+		927C12F0EAE2A7C7C4864CCADBBC3A18 /* heap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = heap.h; path = TesseractOCR/include/leptonica/heap.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94AC869625D44AEAFCD472079C084C6A /* jmorecfg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jmorecfg.h; path = TesseractOCR/include/jmorecfg.h; sourceTree = "<group>"; };
+		95BC7B94DCC248882E7FF9F8BE266DF2 /* strngs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = strngs.h; path = TesseractOCR/include/tesseract/strngs.h; sourceTree = "<group>"; };
+		960D8EAC404CA656F5582E403FB72425 /* alltypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = alltypes.h; path = TesseractOCR/include/leptonica/alltypes.h; sourceTree = "<group>"; };
+		962664C76A7F5C353ED2999FB2769C5A /* baseapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = baseapi.h; path = TesseractOCR/include/tesseract/baseapi.h; sourceTree = "<group>"; };
+		9634C43204FF9CD216DC73E9E6ADF6E1 /* tiffio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tiffio.h; path = TesseractOCR/include/tiffio.h; sourceTree = "<group>"; };
+		963B7E10960D189C2A6F09E4104F0FE9 /* bmfdata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bmfdata.h; path = TesseractOCR/include/leptonica/bmfdata.h; sourceTree = "<group>"; };
+		9802F238E05603EF770916CDE075D9E4 /* Pods-TrippoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrippoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9A2FA59631A8E5F7F25779BA09806480 /* helpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = helpers.h; path = TesseractOCR/include/tesseract/helpers.h; sourceTree = "<group>"; };
+		9A3BC25BD8CFCDCAA3F56E80D7D637A0 /* bbuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bbuffer.h; path = TesseractOCR/include/leptonica/bbuffer.h; sourceTree = "<group>"; };
+		9C0864AC9240044EAA1F92362FA852BE /* TesseractOCRiOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TesseractOCRiOS-dummy.m"; sourceTree = "<group>"; };
+		9D5A49AA5E179296334BEDEFDBF12F77 /* libPods-TrippoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TrippoUITests.a"; path = "libPods-TrippoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DF42C6174146E9C660DF894DCADC2F1 /* Pods-Trippo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Trippo.release.xcconfig"; sourceTree = "<group>"; };
+		9E4BC7A9B7404CA5B5461699E0E8983E /* environ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = environ.h; path = TesseractOCR/include/leptonica/environ.h; sourceTree = "<group>"; };
+		9EBC6653A8F219FD6D7126B9266D10B8 /* Pods-TrippoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrippoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9FA318C14118AEBA0BCFF8E28DDCF33B /* bilateral.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bilateral.h; path = TesseractOCR/include/leptonica/bilateral.h; sourceTree = "<group>"; };
+		9FF9A4D61E2B1896D50667DB825463FA /* jerror.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jerror.h; path = TesseractOCR/include/jerror.h; sourceTree = "<group>"; };
+		A1135453726FAF35DBCE68F9790121D9 /* stack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stack.h; path = TesseractOCR/include/leptonica/stack.h; sourceTree = "<group>"; };
+		A555900F3FD04A2FFD32A816FE4D4970 /* unicharset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unicharset.h; path = TesseractOCR/include/tesseract/unicharset.h; sourceTree = "<group>"; };
+		A71DB19FA97D4426F171D7244C69B407 /* libpng.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libpng.a; path = TesseractOCR/lib/libpng.a; sourceTree = "<group>"; };
+		A7BEB98AC5B8AFC75EB13C84F86708B2 /* G8Constants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = G8Constants.h; path = TesseractOCR/G8Constants.h; sourceTree = "<group>"; };
+		AC2950207BEBF26A3F20E848CD99BF38 /* tiffvers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tiffvers.h; path = TesseractOCR/include/tiffvers.h; sourceTree = "<group>"; };
+		AC2D2CD9EC4AA18D1CFAA327323315A3 /* pnglibconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pnglibconf.h; path = TesseractOCR/include/pnglibconf.h; sourceTree = "<group>"; };
+		AF29ECBCE283DADCB3C258E2E0B084F0 /* errcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = errcode.h; path = TesseractOCR/include/tesseract/errcode.h; sourceTree = "<group>"; };
+		B0019358EA6AE22FD643016916055948 /* Pods-TrippoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrippoTests-dummy.m"; sourceTree = "<group>"; };
+		B253ECDF9179D2790A3F8B176C510D89 /* leptwin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = leptwin.h; path = TesseractOCR/include/leptonica/leptwin.h; sourceTree = "<group>"; };
+		B29ED884F94F0E77C12B5F42E79EDDB4 /* libtiff.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libtiff.a; path = TesseractOCR/lib/libtiff.a; sourceTree = "<group>"; };
+		B36036A3E003195FF5B9BDE14D7849F5 /* libPods-TrippoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TrippoTests.a"; path = "libPods-TrippoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B530FEF18E88728E461035EB4289BBCC /* endianness.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = endianness.h; path = TesseractOCR/include/leptonica/endianness.h; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B65B52990B4A223844FA0217F714E7B9 /* resultiterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = resultiterator.h; path = TesseractOCR/include/tesseract/resultiterator.h; sourceTree = "<group>"; };
+		B89EE34ADCC1DB143C28547D1409FF55 /* ndminx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ndminx.h; path = TesseractOCR/include/tesseract/ndminx.h; sourceTree = "<group>"; };
+		B8B65FC86811627068F985D6097BDA9D /* bmf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bmf.h; path = TesseractOCR/include/leptonica/bmf.h; sourceTree = "<group>"; };
+		BA72A50A285FD828805539ADFC4A639C /* Pods-TrippoShare-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrippoShare-resources.sh"; sourceTree = "<group>"; };
+		BE9DF38F0A8FEF964717A7DFC72046A8 /* jpeglib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jpeglib.h; path = TesseractOCR/include/jpeglib.h; sourceTree = "<group>"; };
+		C0067CC4F75C128C1A090FB1EB0D0C93 /* G8TesseractParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = G8TesseractParameters.h; path = TesseractOCR/G8TesseractParameters.h; sourceTree = "<group>"; };
+		C2B87DFB6BCD5BF4D2B564E76135AB9E /* Pods-TrippoShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrippoShare.debug.xcconfig"; sourceTree = "<group>"; };
+		CA1B9D084D9338661935088E720F3C3B /* tesscallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tesscallback.h; path = TesseractOCR/include/tesseract/tesscallback.h; sourceTree = "<group>"; };
+		CAE2ADD4B5E00104661D117375035554 /* bmp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bmp.h; path = TesseractOCR/include/leptonica/bmp.h; sourceTree = "<group>"; };
+		CB1BA883F88B5D40686311D2E2A205E0 /* G8Tesseract.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = G8Tesseract.h; path = TesseractOCR/G8Tesseract.h; sourceTree = "<group>"; };
+		CBA5EAC2D138874EB90AA983E42BA32F /* pageiterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pageiterator.h; path = TesseractOCR/include/tesseract/pageiterator.h; sourceTree = "<group>"; };
+		CC91EE3A1FA3E308950344017F0FDF51 /* tiff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tiff.h; path = TesseractOCR/include/tiff.h; sourceTree = "<group>"; };
+		CC9A0B083A66079BD6F9AAF02CC4995D /* G8RecognizedBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = G8RecognizedBlock.h; path = TesseractOCR/G8RecognizedBlock.h; sourceTree = "<group>"; };
+		CD1C23E2EA47F5C57A0D56B41D2740E2 /* regutils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = regutils.h; path = TesseractOCR/include/leptonica/regutils.h; sourceTree = "<group>"; };
+		CD4902797DED1C9C294F4A90C4668895 /* Pods-TrippoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrippoTests-resources.sh"; sourceTree = "<group>"; };
+		CDCD2F727178FD7E593F875840E0AF38 /* png.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = png.h; path = TesseractOCR/include/png.h; sourceTree = "<group>"; };
+		CE3FA048B863588B2040385670378C45 /* sudoku.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sudoku.h; path = TesseractOCR/include/leptonica/sudoku.h; sourceTree = "<group>"; };
+		D2528D616F942824FEF0C3FC237E0536 /* osdetect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = osdetect.h; path = TesseractOCR/include/tesseract/osdetect.h; sourceTree = "<group>"; };
+		D5379E60C1F2F993A9ADC858651690D2 /* Pods-TrippoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrippoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DAC0B470AA920286D8066E325C5CADA8 /* params.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = params.h; path = TesseractOCR/include/tesseract/params.h; sourceTree = "<group>"; };
+		DB04F46FBDCEAAC2D34C10780765C49D /* stringcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stringcode.h; path = TesseractOCR/include/leptonica/stringcode.h; sourceTree = "<group>"; };
+		DE5F174614FA26C2A54D2232ABF6451B /* Pods-TrippoShare-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrippoShare-acknowledgements.plist"; sourceTree = "<group>"; };
+		E03C2630C9FA0E37924077941C5BAE69 /* libtesseract.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libtesseract.a; path = TesseractOCR/lib/libtesseract.a; sourceTree = "<group>"; };
+		E32BFD1C94443C750DE0E4E5962412D0 /* jconfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jconfig.h; path = TesseractOCR/include/jconfig.h; sourceTree = "<group>"; };
+		E77842F574E0119DCAB74D69F3F7FFC3 /* queue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = queue.h; path = TesseractOCR/include/leptonica/queue.h; sourceTree = "<group>"; };
+		EB405EFB7365DA933526D0FF93473A81 /* libTesseractOCRiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTesseractOCRiOS.a; path = libTesseractOCRiOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBE60044DD8B532687BD410221FA424B /* Pods-Trippo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Trippo-acknowledgements.plist"; sourceTree = "<group>"; };
+		F2DA1D1372384350F4B96FBBA99F1ECD /* Pods-Trippo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Trippo-resources.sh"; sourceTree = "<group>"; };
+		F420F496E2A304A8ED7CC4D9CE4D03AB /* serialis.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = serialis.h; path = TesseractOCR/include/tesseract/serialis.h; sourceTree = "<group>"; };
+		F7269E1A0122D56FAA1C384B9DAEF4D4 /* Pods-Trippo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Trippo.debug.xcconfig"; sourceTree = "<group>"; };
+		F73B5DEC480FAE5B5B8E2FC61DDBF4FD /* ptra.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ptra.h; path = TesseractOCR/include/leptonica/ptra.h; sourceTree = "<group>"; };
+		FA3CA0E97DBD97BADF507E43E6D6127B /* Pods-TrippoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrippoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FA667C0273B457D9242756D9F3F741E1 /* fileerr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fileerr.h; path = TesseractOCR/include/tesseract/fileerr.h; sourceTree = "<group>"; };
+		FE49A906FA515DFAB5EA20CC4DCCC6A9 /* G8TesseractParameters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = G8TesseractParameters.m; path = TesseractOCR/G8TesseractParameters.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		507E31517E54EE1B9B5360C0AFB7BF31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92E347B59CF244DC4E53D1D388AAF6E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A094B43815F117AE3043133328A88367 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF2F71C23145C9085ECBFD072FE87D1B /* Foundation.framework in Frameworks */,
+				0E045A7A8601917A8F9BBF51AF8E1E97 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B98D4709B849B8979A2231960D23D617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36A0DAFA23C0ECBF856BD5FC9ECE2D98 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAFCC161D217375599BC995A87337118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB5EDF60DE0B8C1BD2749B1BC7430AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F01495AAD3CEACB51EF99B02C711C29D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89ADA232516437BAD1120563FF0293DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11C7327DDC9397BD8C95281ED29526CE /* Pods-Trippo */ = {
+			isa = PBXGroup;
+			children = (
+				1C956BD2890291A0117E95A291B8C802 /* Pods-Trippo-acknowledgements.markdown */,
+				EBE60044DD8B532687BD410221FA424B /* Pods-Trippo-acknowledgements.plist */,
+				129ECCD6677B4E992C1EA2DC204F2B60 /* Pods-Trippo-dummy.m */,
+				394E478BA8BEE3E9476D81203EFF9EDF /* Pods-Trippo-frameworks.sh */,
+				F2DA1D1372384350F4B96FBBA99F1ECD /* Pods-Trippo-resources.sh */,
+				F7269E1A0122D56FAA1C384B9DAEF4D4 /* Pods-Trippo.debug.xcconfig */,
+				9DF42C6174146E9C660DF894DCADC2F1 /* Pods-Trippo.release.xcconfig */,
+			);
+			name = "Pods-Trippo";
+			path = "Target Support Files/Pods-Trippo";
+			sourceTree = "<group>";
+		};
+		234F50223BA0D98310939D417ECBE390 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				11C7327DDC9397BD8C95281ED29526CE /* Pods-Trippo */,
+				94DFD1412E96723C3A40DED2A17C93F2 /* Pods-TrippoShare */,
+				50E8C206B045482D6BB1EEF371CE37AF /* Pods-TrippoTests */,
+				F3DF432959E8030A60D98221345F9A3A /* Pods-TrippoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3999B1EB9C6236A5C3C0C1687719A457 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04CA58EF79BF506A45D4981E3ADF6A39 /* libPods-Trippo.a */,
+				20A2BF80D8EEF4EBB5EFEAABE843042B /* libPods-TrippoShare.a */,
+				B36036A3E003195FF5B9BDE14D7849F5 /* libPods-TrippoTests.a */,
+				9D5A49AA5E179296334BEDEFDBF12F77 /* libPods-TrippoUITests.a */,
+				EB405EFB7365DA933526D0FF93473A81 /* libTesseractOCRiOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42E50799D226205243180F927D20FDF4 /* TesseractOCRiOS */ = {
+			isa = PBXGroup;
+			children = (
+				27B79F0BEEC71B62291B2EE5B1AAC785 /* allheaders.h */,
+				960D8EAC404CA656F5582E403FB72425 /* alltypes.h */,
+				5CA434BB1F6EAAF3965966A7865FF100 /* apitypes.h */,
+				8BF1DB2B44E296DC77BF1E3E6FA89061 /* array.h */,
+				59452C047B2290234C596C1C270F043E /* arrayaccess.h */,
+				962664C76A7F5C353ED2999FB2769C5A /* baseapi.h */,
+				5101AC05A23F82268DFC55A701349D4F /* basedir.h */,
+				9A3BC25BD8CFCDCAA3F56E80D7D637A0 /* bbuffer.h */,
+				9FA318C14118AEBA0BCFF8E28DDCF33B /* bilateral.h */,
+				B8B65FC86811627068F985D6097BDA9D /* bmf.h */,
+				963B7E10960D189C2A6F09E4104F0FE9 /* bmfdata.h */,
+				CAE2ADD4B5E00104661D117375035554 /* bmp.h */,
+				3123B56E062C68A0E5B7318E28AD75FA /* capi.h */,
+				17D8C1DAD18FF9F3F22B7B0F4A9AFCD0 /* ccbord.h */,
+				7CC6FC70860C381A0AB2D4A3890B7976 /* dewarp.h */,
+				B530FEF18E88728E461035EB4289BBCC /* endianness.h */,
+				9E4BC7A9B7404CA5B5461699E0E8983E /* environ.h */,
+				AF29ECBCE283DADCB3C258E2E0B084F0 /* errcode.h */,
+				FA667C0273B457D9242756D9F3F741E1 /* fileerr.h */,
+				A7BEB98AC5B8AFC75EB13C84F86708B2 /* G8Constants.h */,
+				180A4CE75FDCDF7A46E2D413BFC6560D /* G8RecognitionOperation.h */,
+				46C1771D63AD49559D7FA291560C5379 /* G8RecognitionOperation.m */,
+				CC9A0B083A66079BD6F9AAF02CC4995D /* G8RecognizedBlock.h */,
+				24BCEA9C820D3FF5F01A714938640E66 /* G8RecognizedBlock.m */,
+				CB1BA883F88B5D40686311D2E2A205E0 /* G8Tesseract.h */,
+				15D08322381FAC2E09B993AC49582667 /* G8Tesseract.mm */,
+				33D6D25659045F7D12BC9C1BF4689BF9 /* G8TesseractDelegate.h */,
+				C0067CC4F75C128C1A090FB1EB0D0C93 /* G8TesseractParameters.h */,
+				FE49A906FA515DFAB5EA20CC4DCCC6A9 /* G8TesseractParameters.m */,
+				1F8787E77E74B63E6C396C9BF9412F0D /* genericvector.h */,
+				1285CA812B05346135D49D72D13EDF3A /* gplot.h */,
+				927C12F0EAE2A7C7C4864CCADBBC3A18 /* heap.h */,
+				9A2FA59631A8E5F7F25779BA09806480 /* helpers.h */,
+				78A4EF4AD6139905DE0021B6B4FF7E32 /* host.h */,
+				724333B12EB53308E6D1E56587C89FE8 /* imageio.h */,
+				1E2395B73A2E5A748C19F21F8BCC9000 /* jbclass.h */,
+				E32BFD1C94443C750DE0E4E5962412D0 /* jconfig.h */,
+				9FF9A4D61E2B1896D50667DB825463FA /* jerror.h */,
+				94AC869625D44AEAFCD472079C084C6A /* jmorecfg.h */,
+				BE9DF38F0A8FEF964717A7DFC72046A8 /* jpeglib.h */,
+				B253ECDF9179D2790A3F8B176C510D89 /* leptwin.h */,
+				1E39D352CBE2196846547E257CBAC5F4 /* list.h */,
+				12BD9A3DBB5532E3CAF875C023B51215 /* ltrresultiterator.h */,
+				5BB1F644E224274DE5CF85F2925FB1BB /* memry.h */,
+				60F6B8D6C6265C8EFE09B6C6EB9BA515 /* morph.h */,
+				B89EE34ADCC1DB143C28547D1409FF55 /* ndminx.h */,
+				0788F8461250392443169DAF76810EC6 /* ocrclass.h */,
+				D2528D616F942824FEF0C3FC237E0536 /* osdetect.h */,
+				CBA5EAC2D138874EB90AA983E42BA32F /* pageiterator.h */,
+				DAC0B470AA920286D8066E325C5CADA8 /* params.h */,
+				00063C38FBEE1EB362D51AD6146873C2 /* pix.h */,
+				3F61AFBFADD978031C0165E41B0D22A4 /* platform.h */,
+				CDCD2F727178FD7E593F875840E0AF38 /* png.h */,
+				6AC72D7BE18C7C4F839421E83592901F /* pngconf.h */,
+				AC2D2CD9EC4AA18D1CFAA327323315A3 /* pnglibconf.h */,
+				F73B5DEC480FAE5B5B8E2FC61DDBF4FD /* ptra.h */,
+				7FABE38064D2CE62E19A0A8C0D6CCE14 /* publictypes.h */,
+				E77842F574E0119DCAB74D69F3F7FFC3 /* queue.h */,
+				5596ED3344F0419027F285FD694BE44B /* readbarcode.h */,
+				7764B0BFDC1871DCF1CCA82D76EB7699 /* recog.h */,
+				CD1C23E2EA47F5C57A0D56B41D2740E2 /* regutils.h */,
+				098A977E101E4AF51DB0CC12925E92B6 /* renderer.h */,
+				B65B52990B4A223844FA0217F714E7B9 /* resultiterator.h */,
+				F420F496E2A304A8ED7CC4D9CE4D03AB /* serialis.h */,
+				A1135453726FAF35DBCE68F9790121D9 /* stack.h */,
+				DB04F46FBDCEAAC2D34C10780765C49D /* stringcode.h */,
+				95BC7B94DCC248882E7FF9F8BE266DF2 /* strngs.h */,
+				CE3FA048B863588B2040385670378C45 /* sudoku.h */,
+				CA1B9D084D9338661935088E720F3C3B /* tesscallback.h */,
+				87732DD716F64444A449516BF96E5761 /* TesseractOCR.h */,
+				69EADE9CDD4E011389D9BB1C301A970F /* thresholder.h */,
+				CC91EE3A1FA3E308950344017F0FDF51 /* tiff.h */,
+				2B3CD2ACF32F500F2EE62ABF7458C76D /* tiffconf.h */,
+				9634C43204FF9CD216DC73E9E6ADF6E1 /* tiffio.h */,
+				AC2950207BEBF26A3F20E848CD99BF38 /* tiffvers.h */,
+				78F0F478557AD5A20C974D9D35AB5597 /* UIImage+G8Filters.h */,
+				8B74183B226EB41C6CC87356698689F9 /* UIImage+G8Filters.m */,
+				1EA3C562253BC77A5C6425DDF2F50290 /* unichar.h */,
+				568971B5DFEB75C24983E678BA202DC3 /* unicharmap.h */,
+				A555900F3FD04A2FFD32A816FE4D4970 /* unicharset.h */,
+				355B18B722FD90F96AF0D22100D20DBB /* watershed.h */,
+				6F49B6D29304752CF035C686D5B6E8B3 /* Frameworks */,
+				D5205C9E7FF8A2F0C4BECA71DD18565B /* Support Files */,
+			);
+			name = TesseractOCRiOS;
+			path = TesseractOCRiOS;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4803818C9DC0360F2A8E25649706E0C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42E50799D226205243180F927D20FDF4 /* TesseractOCRiOS */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		50E8C206B045482D6BB1EEF371CE37AF /* Pods-TrippoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA3CA0E97DBD97BADF507E43E6D6127B /* Pods-TrippoTests-acknowledgements.markdown */,
+				9802F238E05603EF770916CDE075D9E4 /* Pods-TrippoTests-acknowledgements.plist */,
+				B0019358EA6AE22FD643016916055948 /* Pods-TrippoTests-dummy.m */,
+				40F60E84AA1B93DCE8892283519C881A /* Pods-TrippoTests-frameworks.sh */,
+				CD4902797DED1C9C294F4A90C4668895 /* Pods-TrippoTests-resources.sh */,
+				2A704F329CB8CB162945995E57D9AF3F /* Pods-TrippoTests.debug.xcconfig */,
+				1D441EB13FBF07A1BC8FB00AA3E9EB20 /* Pods-TrippoTests.release.xcconfig */,
+			);
+			name = "Pods-TrippoTests";
+			path = "Target Support Files/Pods-TrippoTests";
+			sourceTree = "<group>";
+		};
+		6F49B6D29304752CF035C686D5B6E8B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15136CD01D01F39C71833DB51197D816 /* libjpeg.a */,
+				242D900A9D45365D89B9D2E8EEE145B0 /* liblept.a */,
+				A71DB19FA97D4426F171D7244C69B407 /* libpng.a */,
+				E03C2630C9FA0E37924077941C5BAE69 /* libtesseract.a */,
+				B29ED884F94F0E77C12B5F42E79EDDB4 /* libtiff.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				4803818C9DC0360F2A8E25649706E0C2 /* Pods */,
+				3999B1EB9C6236A5C3C0C1687719A457 /* Products */,
+				234F50223BA0D98310939D417ECBE390 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		94DFD1412E96723C3A40DED2A17C93F2 /* Pods-TrippoShare */ = {
+			isa = PBXGroup;
+			children = (
+				2DC0078538F1FD1406C80AD4B0A2D41D /* Pods-TrippoShare-acknowledgements.markdown */,
+				DE5F174614FA26C2A54D2232ABF6451B /* Pods-TrippoShare-acknowledgements.plist */,
+				11DD7523DBA9A0B362BBE242EFC5EDF5 /* Pods-TrippoShare-dummy.m */,
+				BA72A50A285FD828805539ADFC4A639C /* Pods-TrippoShare-resources.sh */,
+				C2B87DFB6BCD5BF4D2B564E76135AB9E /* Pods-TrippoShare.debug.xcconfig */,
+				49DE267FA8EEB86D2A5D9F34530AD3DE /* Pods-TrippoShare.release.xcconfig */,
+			);
+			name = "Pods-TrippoShare";
+			path = "Target Support Files/Pods-TrippoShare";
+			sourceTree = "<group>";
+		};
+		D5205C9E7FF8A2F0C4BECA71DD18565B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3056EEE3C6566586F08DF201AB4CBED5 /* TesseractOCRiOS.xcconfig */,
+				9C0864AC9240044EAA1F92362FA852BE /* TesseractOCRiOS-dummy.m */,
+				31161371EB4BA86E23EFD50B02062304 /* TesseractOCRiOS-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TesseractOCRiOS";
+			sourceTree = "<group>";
+		};
+		F3DF432959E8030A60D98221345F9A3A /* Pods-TrippoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9EBC6653A8F219FD6D7126B9266D10B8 /* Pods-TrippoUITests-acknowledgements.markdown */,
+				4AE55C3BBE52B5B94BFD295596D1E978 /* Pods-TrippoUITests-acknowledgements.plist */,
+				1575AB992A293E01F43B1F3565A5B8E5 /* Pods-TrippoUITests-dummy.m */,
+				7EAB617B381990EE942FC62CFB676920 /* Pods-TrippoUITests-frameworks.sh */,
+				0490B717555A121EBC742036C15A15BB /* Pods-TrippoUITests-resources.sh */,
+				81A467AA523EB622907CE9606AB9876D /* Pods-TrippoUITests.debug.xcconfig */,
+				D5379E60C1F2F993A9ADC858651690D2 /* Pods-TrippoUITests.release.xcconfig */,
+			);
+			name = "Pods-TrippoUITests";
+			path = "Target Support Files/Pods-TrippoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4FB86003894BCDAC6A21D03E4148771A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA53803A5006DDBEECA376C92322B110 /* allheaders.h in Headers */,
+				02309CD2D979ACB8801D32A39A5C28C7 /* alltypes.h in Headers */,
+				1BEF20E553C632073F1DCD514A6CBD17 /* apitypes.h in Headers */,
+				806C808B4D5BAD670FE9D2215306BC69 /* array.h in Headers */,
+				4F3823A7D957D8C284716A5AAC23CC43 /* arrayaccess.h in Headers */,
+				0ED76A666201D1C2D648F8C868AC4553 /* baseapi.h in Headers */,
+				53813CA96C590BE087B1364D1672CADB /* basedir.h in Headers */,
+				2D933ACF59FCDF0EF208C8346324125B /* bbuffer.h in Headers */,
+				8359B884F5C36C481D73BCA386055FAE /* bilateral.h in Headers */,
+				1A828F6CE679000196E7D121E79715B1 /* bmf.h in Headers */,
+				3E63EEC55FEB60731D53376844E0C4DB /* bmfdata.h in Headers */,
+				FB5F88560811DC6A12D479B9AB15973B /* bmp.h in Headers */,
+				F1354E999E92A9970D4A026F2F9D67BB /* capi.h in Headers */,
+				6FA8284D93D757B2B7EAD23DE526DBBA /* ccbord.h in Headers */,
+				6FF20F86583C4807B25AA52071713FA9 /* dewarp.h in Headers */,
+				D55E337409488B6B9E04B224DF3731A6 /* endianness.h in Headers */,
+				F0491864F7CC7C60596D6F481BC7183A /* environ.h in Headers */,
+				A041C1CDC5DB2A2540EC27B9626C0079 /* errcode.h in Headers */,
+				5AECE994EB8A7AF3A4BD6533C63D70AF /* fileerr.h in Headers */,
+				22C72E5A8ECBB8C0AD5B09F7AC68E6C9 /* G8Constants.h in Headers */,
+				36AE93BEDA2797B5C417943B1E486E1B /* G8RecognitionOperation.h in Headers */,
+				D4EAF6A2080C04253CF528AB0CF6F6CD /* G8RecognizedBlock.h in Headers */,
+				D85F358850BAC5A9F1E25DFCA54FA054 /* G8Tesseract.h in Headers */,
+				FF722FC0C39ADCA561409C8AC5828E48 /* G8TesseractDelegate.h in Headers */,
+				B6A8AD42C5F0E6F62678A7FF9D30338C /* G8TesseractParameters.h in Headers */,
+				0E040AC334AEFAD292DDA4F821806F38 /* genericvector.h in Headers */,
+				0BE1E4F3E15EDABF5DC147AEC557E886 /* gplot.h in Headers */,
+				2EC0E01C9F8D177195D5A5C4B1C59899 /* heap.h in Headers */,
+				F8916CE376EDFF7121C1A8BDA80B83EB /* helpers.h in Headers */,
+				AF39D0C52E6F22AE2247CD3297FFFA6C /* host.h in Headers */,
+				87D57BB5F51D02F8221D79584D19D239 /* imageio.h in Headers */,
+				68E2879104175D5E2D36B83B8ABBC53F /* jbclass.h in Headers */,
+				9B87A884FB14917F5684F78C5BF42E4F /* jconfig.h in Headers */,
+				6DBD1DD4C8C00C3EC4E43E01114B43C7 /* jerror.h in Headers */,
+				F251ADF23FD5D6BB38338CD6DD04B72B /* jmorecfg.h in Headers */,
+				BBCA850B24A44EF9AE59D28583D087AE /* jpeglib.h in Headers */,
+				F409B33D2D7653494D626B8B247F7651 /* leptwin.h in Headers */,
+				3521FDABE8C28A8897566C95D6DA2875 /* list.h in Headers */,
+				31B67346CFBED829AF86084CC77DAABA /* ltrresultiterator.h in Headers */,
+				1AC21862DBF2B73ABE9CAE33BED49610 /* memry.h in Headers */,
+				81ABE3F5DF865ABBE3D2505802F41815 /* morph.h in Headers */,
+				D0D719D8161F1D7FF690B99E3FEBF89E /* ndminx.h in Headers */,
+				95769931C908C1A7388E9C4DC9BA4228 /* ocrclass.h in Headers */,
+				E1E0510023001537FCA2865015FA6705 /* osdetect.h in Headers */,
+				A8086DEB44B7974A6A2028CE9C8C7031 /* pageiterator.h in Headers */,
+				DC97A6AB72C863939BE21421A248BBF9 /* params.h in Headers */,
+				8A0B6370B9C360FDAA4CC0BA61C512AC /* pix.h in Headers */,
+				A81839BB18474D1BC39D79112434F0B4 /* platform.h in Headers */,
+				08EF2176516AC7CAD707FA63399E1631 /* png.h in Headers */,
+				CAE6791569DF6CB3DEF075AA6E1556A9 /* pngconf.h in Headers */,
+				F97D377C62C92FCA2DF55B14F3C4E775 /* pnglibconf.h in Headers */,
+				8AAEC63C81122B37B1F510854C7ACAA4 /* ptra.h in Headers */,
+				69DDEE292E59FE360F64F8B97540715F /* publictypes.h in Headers */,
+				AE2DCFD02017C11C3A06FB1F689031C3 /* queue.h in Headers */,
+				E8F7C12C99F7ED860CC0D904B08187B5 /* readbarcode.h in Headers */,
+				12102886CF8BF60D04316E847015D316 /* recog.h in Headers */,
+				B2654DB709AE933199F20FB6B04891F5 /* regutils.h in Headers */,
+				C72133D47B7910004024274CB998F5E5 /* renderer.h in Headers */,
+				0E924AC9FE49B8C68CB7AAC519DB8B61 /* resultiterator.h in Headers */,
+				94525120A81072C4E66B9E32C040B890 /* serialis.h in Headers */,
+				4A2EA49E4419E0CE79633124D9A009F8 /* stack.h in Headers */,
+				8AFD820AA7DCA3B01C87CA555F6CA6AE /* stringcode.h in Headers */,
+				83D2A87CB2C609823FCD36E52A835A3B /* strngs.h in Headers */,
+				079073BB1F40D4A3153E9842ECE4AF49 /* sudoku.h in Headers */,
+				747300A055354F9A25F3B08D21582A2A /* tesscallback.h in Headers */,
+				DE1D16D853F0BAC85989CE083AF6995D /* TesseractOCR.h in Headers */,
+				6DFF31A749D7DF3EA1D583CDFFE8147E /* thresholder.h in Headers */,
+				742A62F0912A9E1F09351ED3ED03E2E0 /* tiff.h in Headers */,
+				8B46DA6C1F1D519DC56C470D18FF94E1 /* tiffconf.h in Headers */,
+				7DCEE3CA62D92C661521BAFE4B2A93EB /* tiffio.h in Headers */,
+				5E253EC51A859FFA03A203022FE8851A /* tiffvers.h in Headers */,
+				D98716E483E67EFB78F2A55817F3BE47 /* UIImage+G8Filters.h in Headers */,
+				698EBA805A7AF992C7AE12AED9C80ABB /* unichar.h in Headers */,
+				8479D97FD47BF812066B33F435F7051A /* unicharmap.h in Headers */,
+				85BB0C257CE9E1470C955B04173B2B5C /* unicharset.h in Headers */,
+				15436758BAFB2E79D431A181147F3F2E /* watershed.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		042B6C8C7C707730D18E70411E8D60D6 /* Pods-Trippo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 224CCD8D2FACC83A026F1D72B50C7845 /* Build configuration list for PBXNativeTarget "Pods-Trippo" */;
+			buildPhases = (
+				A5913BD33AAFBAC4FD24340D2EDA30DB /* Sources */,
+				507E31517E54EE1B9B5360C0AFB7BF31 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				418829725348D3CDC5D1D3B2663EB50B /* PBXTargetDependency */,
+			);
+			name = "Pods-Trippo";
+			productName = "Pods-Trippo";
+			productReference = 04CA58EF79BF506A45D4981E3ADF6A39 /* libPods-Trippo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0FC8BB448D4A9078B5DC1BBCFA2699D4 /* Pods-TrippoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09DCAC7666AE40FA0F000589F1D05465 /* Build configuration list for PBXNativeTarget "Pods-TrippoUITests" */;
+			buildPhases = (
+				143C33DDEEEEA40F34C6904F4A18D3CB /* Sources */,
+				BAFCC161D217375599BC995A87337118 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TrippoUITests";
+			productName = "Pods-TrippoUITests";
+			productReference = 9D5A49AA5E179296334BEDEFDBF12F77 /* libPods-TrippoUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		885A7698226F733EEE840D526C76CA45 /* Pods-TrippoShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B3587DBB680F9C0D9CDB8F5934F15E8 /* Build configuration list for PBXNativeTarget "Pods-TrippoShare" */;
+			buildPhases = (
+				261E0D7FD0369E87E6AA5C5A681F6810 /* Sources */,
+				B98D4709B849B8979A2231960D23D617 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TrippoShare";
+			productName = "Pods-TrippoShare";
+			productReference = 20A2BF80D8EEF4EBB5EFEAABE843042B /* libPods-TrippoShare.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A6A171BB4C275E6405D983FC6975F590 /* TesseractOCRiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF07462AEBC81A01730E519F05954B76 /* Build configuration list for PBXNativeTarget "TesseractOCRiOS" */;
+			buildPhases = (
+				3B6A5B44182252F23B39E68D02052163 /* Sources */,
+				A094B43815F117AE3043133328A88367 /* Frameworks */,
+				4FB86003894BCDAC6A21D03E4148771A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TesseractOCRiOS;
+			productName = TesseractOCRiOS;
+			productReference = EB405EFB7365DA933526D0FF93473A81 /* libTesseractOCRiOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F2E860A3A751D79906526FE16FD21407 /* Pods-TrippoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E40B1EDA221CE9CC46F70EF4B01F763 /* Build configuration list for PBXNativeTarget "Pods-TrippoTests" */;
+			buildPhases = (
+				711E4C0B88A3289739652EB1352F4E8A /* Sources */,
+				F01495AAD3CEACB51EF99B02C711C29D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TrippoTests";
+			productName = "Pods-TrippoTests";
+			productReference = B36036A3E003195FF5B9BDE14D7849F5 /* libPods-TrippoTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3999B1EB9C6236A5C3C0C1687719A457 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				042B6C8C7C707730D18E70411E8D60D6 /* Pods-Trippo */,
+				885A7698226F733EEE840D526C76CA45 /* Pods-TrippoShare */,
+				F2E860A3A751D79906526FE16FD21407 /* Pods-TrippoTests */,
+				0FC8BB448D4A9078B5DC1BBCFA2699D4 /* Pods-TrippoUITests */,
+				A6A171BB4C275E6405D983FC6975F590 /* TesseractOCRiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		143C33DDEEEEA40F34C6904F4A18D3CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85BAD3FC293C4371544C5E4B5D4D1BA /* Pods-TrippoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		261E0D7FD0369E87E6AA5C5A681F6810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D7EA5D874D0C3826439CE3828FEA9E4 /* Pods-TrippoShare-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B6A5B44182252F23B39E68D02052163 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F8A1468FE8993529BC151FF8F70568C /* G8RecognitionOperation.m in Sources */,
+				161B6A1BFF8B25C10E818AEF0C7727B1 /* G8RecognizedBlock.m in Sources */,
+				20343AE663F99E39EB6925DA42CE7DC2 /* G8Tesseract.mm in Sources */,
+				E9C0C8719D01E27C0F367BD50ABBAB7C /* G8TesseractParameters.m in Sources */,
+				9851FD5B6BC144916756C8392A14DD33 /* TesseractOCRiOS-dummy.m in Sources */,
+				A40D1E89EFF2B06151069BC272267A80 /* UIImage+G8Filters.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		711E4C0B88A3289739652EB1352F4E8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FB5EBBBC073E137A5C9D6980A1EA839 /* Pods-TrippoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5913BD33AAFBAC4FD24340D2EDA30DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A9BDC8A7ACE86F4B4CFBF942F53193 /* Pods-Trippo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		418829725348D3CDC5D1D3B2663EB50B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TesseractOCRiOS;
+			target = A6A171BB4C275E6405D983FC6975F590 /* TesseractOCRiOS */;
+			targetProxy = D9BB447648DF3EE5FEDDBCC7821905C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B4EEB313F1C1AF3D77AB25F548FE7BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3056EEE3C6566586F08DF201AB4CBED5 /* TesseractOCRiOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TesseractOCRiOS/TesseractOCRiOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1574DFBE46C3A95056829BC718547A7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		59EBA80520B351FDB6C682518FB0DDE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7269E1A0122D56FAA1C384B9DAEF4D4 /* Pods-Trippo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59FE4951BE5FE58158CB879A229936A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2B87DFB6BCD5BF4D2B564E76135AB9E /* Pods-TrippoShare.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5ACB6850088B2180BC782A120FA330B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3056EEE3C6566586F08DF201AB4CBED5 /* TesseractOCRiOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TesseractOCRiOS/TesseractOCRiOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B5A1446720EEC8CE963B9BD750713E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		85973B1DB059FB812ABC376CD125B4B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81A467AA523EB622907CE9606AB9876D /* Pods-TrippoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99B3E4565E969C1BC9141623F9AD754C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DF42C6174146E9C660DF894DCADC2F1 /* Pods-Trippo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6BCA9567F27E735C88D173CF54E6F25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49DE267FA8EEB86D2A5D9F34530AD3DE /* Pods-TrippoShare.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C75714580A531D7E0C8983B186D548D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5379E60C1F2F993A9ADC858651690D2 /* Pods-TrippoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6D486626815EC71FA1426D862BCC03D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A704F329CB8CB162945995E57D9AF3F /* Pods-TrippoTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBD5439559FD7D79245425D589696774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D441EB13FBF07A1BC8FB00AA3E9EB20 /* Pods-TrippoTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09DCAC7666AE40FA0F000589F1D05465 /* Build configuration list for PBXNativeTarget "Pods-TrippoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85973B1DB059FB812ABC376CD125B4B7 /* Debug */,
+				C75714580A531D7E0C8983B186D548D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		224CCD8D2FACC83A026F1D72B50C7845 /* Build configuration list for PBXNativeTarget "Pods-Trippo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59EBA80520B351FDB6C682518FB0DDE1 /* Debug */,
+				99B3E4565E969C1BC9141623F9AD754C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B5A1446720EEC8CE963B9BD750713E4 /* Debug */,
+				1574DFBE46C3A95056829BC718547A7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E40B1EDA221CE9CC46F70EF4B01F763 /* Build configuration list for PBXNativeTarget "Pods-TrippoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6D486626815EC71FA1426D862BCC03D /* Debug */,
+				FBD5439559FD7D79245425D589696774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B3587DBB680F9C0D9CDB8F5934F15E8 /* Build configuration list for PBXNativeTarget "Pods-TrippoShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59FE4951BE5FE58158CB879A229936A0 /* Debug */,
+				B6BCA9567F27E735C88D173CF54E6F25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF07462AEBC81A01730E519F05954B76 /* Build configuration list for PBXNativeTarget "TesseractOCRiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B4EEB313F1C1AF3D77AB25F548FE7BD /* Debug */,
+				5ACB6850088B2180BC782A120FA330B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83AA8FD57B1533A8971FE060 /* libPods-TrippoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB9DE6A7FEE614EEB1912CC /* libPods-TrippoUITests.a */; };
+		B2984CCB2B3EA44F3D442EFD /* libPods-Trippo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 981FEE6AB5A46405D9D7F4A4 /* libPods-Trippo.a */; };
+		B3230B7A1F884D81001EA8F9 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = B3230B791F884D81001EA8F9 /* tessdata */; };
+		B3230B7D1F88BAE7001EA8F9 /* LocationTagger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3230B7C1F88BAE7001EA8F9 /* LocationTagger.swift */; };
 		B33BA11F1F8745DA0004D6ED /* logo@1.5x.png in Resources */ = {isa = PBXBuildFile; fileRef = B33BA11C1F8745D90004D6ED /* logo@1.5x.png */; };
 		B33BA1201F8745DA0004D6ED /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B33BA11D1F8745DA0004D6ED /* logo.png */; };
 		B33BA1211F8745DA0004D6ED /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B33BA11E1F8745DA0004D6ED /* logo@2x.png */; };
@@ -20,6 +24,8 @@
 		B36CB52C1F8572A7004271F8 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36CB52B1F8572A7004271F8 /* ShareViewController.m */; };
 		B36CB52F1F8572A7004271F8 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B36CB52D1F8572A7004271F8 /* MainInterface.storyboard */; };
 		B36CB5331F8572A7004271F8 /* TrippoShare.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B36CB5281F8572A7004271F8 /* TrippoShare.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E715C3CE3A9F416B10457DB8 /* libPods-TrippoShare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE6EB5C23711629B613F13B /* libPods-TrippoShare.a */; };
+		EA16437F99466DC77C770B1B /* libPods-TrippoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5357ACCD604C57784DA3F2A1 /* libPods-TrippoTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +67,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1A8990C67EEF80887C4F6C97 /* Pods-Trippo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trippo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Trippo/Pods-Trippo.release.xcconfig"; sourceTree = "<group>"; };
+		22044B6B837E4D5E042686A1 /* Pods-TrippoShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrippoShare.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrippoShare/Pods-TrippoShare.release.xcconfig"; sourceTree = "<group>"; };
+		4DB9DE6A7FEE614EEB1912CC /* libPods-TrippoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TrippoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5357ACCD604C57784DA3F2A1 /* libPods-TrippoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TrippoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E529297B9A86BF72A423104 /* Pods-TrippoShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrippoShare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrippoShare/Pods-TrippoShare.debug.xcconfig"; sourceTree = "<group>"; };
+		6FE51C7118106D1254EF744C /* Pods-TrippoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrippoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrippoTests/Pods-TrippoTests.release.xcconfig"; sourceTree = "<group>"; };
+		7694315314803F3C0B9361AD /* Pods-TrippoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrippoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrippoUITests/Pods-TrippoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7D420494A4AEE6612920DEBC /* Pods-TrippoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrippoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrippoUITests/Pods-TrippoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		981FEE6AB5A46405D9D7F4A4 /* libPods-Trippo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Trippo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6DCF9C91B6496FE00C1337 /* Pods-Trippo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trippo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Trippo/Pods-Trippo.debug.xcconfig"; sourceTree = "<group>"; };
+		B3230B791F884D81001EA8F9 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		B3230B7B1F88BAE7001EA8F9 /* Trippo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Trippo-Bridging-Header.h"; sourceTree = "<group>"; };
+		B3230B7C1F88BAE7001EA8F9 /* LocationTagger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTagger.swift; sourceTree = "<group>"; };
 		B33BA11C1F8745D90004D6ED /* logo@1.5x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@1.5x.png"; sourceTree = "<group>"; };
 		B33BA11D1F8745DA0004D6ED /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		B33BA11E1F8745DA0004D6ED /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
@@ -86,6 +105,8 @@
 		B36CB5301F8572A7004271F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B36CB5381F8574D2004271F8 /* TrippoShare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TrippoShare.entitlements; sourceTree = "<group>"; };
 		B36CB5391F86ABE5004271F8 /* Trippo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Trippo.entitlements; sourceTree = "<group>"; };
+		DAE6EB5C23711629B613F13B /* libPods-TrippoShare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TrippoShare.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF317C55C9BB00EBE5738D5A /* Pods-TrippoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrippoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrippoTests/Pods-TrippoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2984CCB2B3EA44F3D442EFD /* libPods-Trippo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA16437F99466DC77C770B1B /* libPods-TrippoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83AA8FD57B1533A8971FE060 /* libPods-TrippoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,12 +138,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E715C3CE3A9F416B10457DB8 /* libPods-TrippoShare.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		71EE212121A51AB77100B14D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				981FEE6AB5A46405D9D7F4A4 /* libPods-Trippo.a */,
+				DAE6EB5C23711629B613F13B /* libPods-TrippoShare.a */,
+				5357ACCD604C57784DA3F2A1 /* libPods-TrippoTests.a */,
+				4DB9DE6A7FEE614EEB1912CC /* libPods-TrippoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7815CD0F3EEA5E928CA408E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B6DCF9C91B6496FE00C1337 /* Pods-Trippo.debug.xcconfig */,
+				1A8990C67EEF80887C4F6C97 /* Pods-Trippo.release.xcconfig */,
+				5E529297B9A86BF72A423104 /* Pods-TrippoShare.debug.xcconfig */,
+				22044B6B837E4D5E042686A1 /* Pods-TrippoShare.release.xcconfig */,
+				EF317C55C9BB00EBE5738D5A /* Pods-TrippoTests.debug.xcconfig */,
+				6FE51C7118106D1254EF744C /* Pods-TrippoTests.release.xcconfig */,
+				7D420494A4AEE6612920DEBC /* Pods-TrippoUITests.debug.xcconfig */,
+				7694315314803F3C0B9361AD /* Pods-TrippoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B36CB4E51F857296004271F8 = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +179,8 @@
 				B36CB5151F857296004271F8 /* TrippoUITests */,
 				B36CB5291F8572A7004271F8 /* TrippoShare */,
 				B36CB4EF1F857296004271F8 /* Products */,
+				7815CD0F3EEA5E928CA408E2 /* Pods */,
+				71EE212121A51AB77100B14D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,6 +198,7 @@
 		B36CB4F01F857296004271F8 /* Trippo */ = {
 			isa = PBXGroup;
 			children = (
+				B3230B791F884D81001EA8F9 /* tessdata */,
 				B33BA11D1F8745DA0004D6ED /* logo.png */,
 				B33BA11C1F8745D90004D6ED /* logo@1.5x.png */,
 				B33BA11E1F8745DA0004D6ED /* logo@2x.png */,
@@ -157,6 +211,8 @@
 				B36CB4FD1F857296004271F8 /* Assets.xcassets */,
 				B36CB5021F857296004271F8 /* Info.plist */,
 				B36CB4F11F857296004271F8 /* Supporting Files */,
+				B3230B7C1F88BAE7001EA8F9 /* LocationTagger.swift */,
+				B3230B7B1F88BAE7001EA8F9 /* Trippo-Bridging-Header.h */,
 			);
 			path = Trippo;
 			sourceTree = "<group>";
@@ -206,10 +262,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B36CB51B1F857296004271F8 /* Build configuration list for PBXNativeTarget "Trippo" */;
 			buildPhases = (
+				778DF395AFBE604F65429006 /* [CP] Check Pods Manifest.lock */,
 				B36CB4EA1F857296004271F8 /* Sources */,
 				B36CB4EB1F857296004271F8 /* Frameworks */,
 				B36CB4EC1F857296004271F8 /* Resources */,
 				B36CB5371F8572A7004271F8 /* Embed App Extensions */,
+				CC4F7E21FF71F0C9594DA5D6 /* [CP] Embed Pods Frameworks */,
+				DF9057E706A8C81289366EAF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -225,9 +284,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B36CB51E1F857296004271F8 /* Build configuration list for PBXNativeTarget "TrippoTests" */;
 			buildPhases = (
+				0FC140D72091EEA59DFAF3F1 /* [CP] Check Pods Manifest.lock */,
 				B36CB5031F857296004271F8 /* Sources */,
 				B36CB5041F857296004271F8 /* Frameworks */,
 				B36CB5051F857296004271F8 /* Resources */,
+				CC7D31D4D212F029E900CA33 /* [CP] Embed Pods Frameworks */,
+				D0A00693F80D695FEE3D5157 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,9 +305,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B36CB5211F857296004271F8 /* Build configuration list for PBXNativeTarget "TrippoUITests" */;
 			buildPhases = (
+				2569AF1BDDC54736C09384CC /* [CP] Check Pods Manifest.lock */,
 				B36CB50E1F857296004271F8 /* Sources */,
 				B36CB50F1F857296004271F8 /* Frameworks */,
 				B36CB5101F857296004271F8 /* Resources */,
+				96B0FA1D02346486EE4C493E /* [CP] Embed Pods Frameworks */,
+				68EB5D1A4EDE6D8165EA6505 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -261,9 +326,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B36CB5341F8572A7004271F8 /* Build configuration list for PBXNativeTarget "TrippoShare" */;
 			buildPhases = (
+				6942BE8B437045D9EF6B1F0B /* [CP] Check Pods Manifest.lock */,
 				B36CB5241F8572A7004271F8 /* Sources */,
 				B36CB5251F8572A7004271F8 /* Frameworks */,
 				B36CB5261F8572A7004271F8 /* Resources */,
+				5D14128DA0542B744A30540F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -286,6 +353,7 @@
 					B36CB4ED1F857296004271F8 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 822FCFLMN8;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -346,6 +414,7 @@
 				B36CB4FE1F857296004271F8 /* Assets.xcassets in Resources */,
 				B36CB4FC1F857296004271F8 /* Main.storyboard in Resources */,
 				B33BA11F1F8745DA0004D6ED /* logo@1.5x.png in Resources */,
+				B3230B7A1F884D81001EA8F9 /* tessdata in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +442,186 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0FC140D72091EEA59DFAF3F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrippoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2569AF1BDDC54736C09384CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrippoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D14128DA0542B744A30540F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrippoShare/Pods-TrippoShare-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68EB5D1A4EDE6D8165EA6505 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrippoUITests/Pods-TrippoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6942BE8B437045D9EF6B1F0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrippoShare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		778DF395AFBE604F65429006 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Trippo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96B0FA1D02346486EE4C493E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrippoUITests/Pods-TrippoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC4F7E21FF71F0C9594DA5D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Trippo/Pods-Trippo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC7D31D4D212F029E900CA33 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrippoTests/Pods-TrippoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0A00693F80D695FEE3D5157 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrippoTests/Pods-TrippoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF9057E706A8C81289366EAF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Trippo/Pods-Trippo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B36CB4EA1F857296004271F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -380,6 +629,7 @@
 			files = (
 				B36CB4F91F857296004271F8 /* ViewController.m in Sources */,
 				B36CB4F61F857296004271F8 /* AppDelegate.m in Sources */,
+				B3230B7D1F88BAE7001EA8F9 /* LocationTagger.swift in Sources */,
 				B36CB4F31F857296004271F8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,9 +725,10 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos11.0]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -494,10 +745,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos11.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -529,9 +780,10 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos11.0]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -542,9 +794,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos11.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -552,33 +804,48 @@
 		};
 		B36CB51C1F857296004271F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B6DCF9C91B6496FE00C1337 /* Pods-Trippo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Trippo/Trippo.entitlements;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 822FCFLMN8;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = Trippo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = siweikang.Trippo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Trippo/Trippo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		B36CB51D1F857296004271F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A8990C67EEF80887C4F6C97 /* Pods-Trippo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Trippo/Trippo.entitlements;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 822FCFLMN8;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = Trippo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = siweikang.Trippo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Trippo/Trippo-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
 		B36CB51F1F857296004271F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF317C55C9BB00EBE5738D5A /* Pods-TrippoTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TrippoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -590,7 +857,9 @@
 		};
 		B36CB5201F857296004271F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FE51C7118106D1254EF744C /* Pods-TrippoTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TrippoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -602,7 +871,9 @@
 		};
 		B36CB5221F857296004271F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D420494A4AEE6612920DEBC /* Pods-TrippoUITests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = TrippoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = siweikang.TrippoUITests;
@@ -613,7 +884,9 @@
 		};
 		B36CB5231F857296004271F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7694315314803F3C0B9361AD /* Pods-TrippoUITests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = TrippoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = siweikang.TrippoUITests;
@@ -624,6 +897,7 @@
 		};
 		B36CB5351F8572A7004271F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E529297B9A86BF72A423104 /* Pods-TrippoShare.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = TrippoShare/TrippoShare.entitlements;
 				DEVELOPMENT_TEAM = 822FCFLMN8;
@@ -637,6 +911,7 @@
 		};
 		B36CB5361F8572A7004271F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22044B6B837E4D5E042686A1 /* Pods-TrippoShare.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = TrippoShare/TrippoShare.entitlements;
 				DEVELOPMENT_TEAM = 822FCFLMN8;
